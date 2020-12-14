@@ -16,7 +16,7 @@ set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
 set :keep_releases, 5
 # Rubyのバージョン
 set :rbenv_ruby, '2.6.5'
-set :rbenv_path, '~/.rbenv/bin/rbenv'
+set :rbenv_path, '/home/ec2-user/.rbenv'
 set :rbenv_type, :system
 # 出力するログのレベル。エラーログを詳細に見たい場合は :debug に設定する。
 # 本番環境用のものであれば、 :info程度が普通。
